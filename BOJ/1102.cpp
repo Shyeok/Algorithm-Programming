@@ -43,7 +43,6 @@ int main(){
 
 	//printf("%d \n",s_state);
 
-	dy[0] = 0;
 	dy[s_state] = 0;
 
 	for(int i = 0; i < (1 << n); i++){
